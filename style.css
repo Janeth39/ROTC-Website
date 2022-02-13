@@ -1,0 +1,136 @@
+html 
+{
+  background-color: rgb(121, 163, 202);
+} /*Deals with background color*/
+
+body
+{
+  padding-left: 30px;
+}
+
+h1
+{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: navy;
+}
+
+p
+{
+  /*padding-left: 100px;*/
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+h2
+{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 30px;
+  color: navy
+}
+
+h3
+{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+
+address
+{
+    font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+table 
+{
+  padding-left: 175px;
+  width: 100%;
+  border-spacing: 0.5rem;
+  font-family: 'Quicksand', sans-serif;
+  
+}
+
+th, td 
+{
+  border-bottom: 1px solid;
+}
+
+form
+{
+  box-shadow: 10px 5px 5px grey;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: #cfb4d6;
+  box-sizing: border-box;
+  border-color: black;
+}
+
+dl
+{
+  font-family: 'Quicksand', sans-serif;
+  padding-left: 215px;
+  padding-right: 100px;
+} /* styles the description list */
+
+article
+{
+  padding-left: 175px;
+  padding-right: 100px;
+}
+
+mark
+{
+  background-color: #cfb4d6;
+}
+
+.sidebar 
+{  
+  font-family: 'Quicksand', sans-serif;
+
+  height: 100%;
+  width: 100px;
+
+  position: absolute;
+  /* When position absolute is used on an element, it is positioned absolutely with reference to the closest parent that has a position relative value */
+
+  left: 0;
+  top: 0;
+  padding-top: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  background-color: navy;
+} /* used for the sidebars format and placement */
+
+.sidebar div 
+{
+  padding: 8px;
+  font-size: 24px;
+  display: block;
+} /* sidebar's actual appearance */
+
+.center 
+{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+} /* center align property */
+
+.resize 
+{
+  width: 200px;
+  height: auto;
+}
+
+.resize2
+{
+  padding-left: 200px;
+  width: 1000px;
+  height: 1000px;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.form
+{
+  padding-left: 215px;
+}
