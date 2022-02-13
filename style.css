@@ -5,7 +5,11 @@ html
 
 body
 {
-  padding-left: 30px;
+  margin: 0 ,auto,0, auto;
+  padding-left: 2%;
+  padding-right: 5%;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 h1
@@ -17,22 +21,29 @@ h1
 
 p
 {
-  /*padding-left: 100px;*/
+  /* padding-left: 30px; */
   font-family: 'Quicksand', sans-serif;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 h2
 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 30px;
+  font-size: 20px;
   color: navy
 }
 
 h3
 {
   font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+  color: navy
+}
+
+h4
+{
+  font-family: 'Quicksand', sans-serif;
+font-size: 20px;
 }
 
 address
@@ -41,29 +52,20 @@ address
   font-size: 15px;
 }
 
-table 
+/* table 
 {
   padding-left: 175px;
   width: 100%;
   border-spacing: 0.5rem;
   font-family: 'Quicksand', sans-serif;
-  
-}
+   
+}*/
 
 th, td 
 {
   border-bottom: 1px solid;
 }
 
-form
-{
-  box-shadow: 10px 5px 5px grey;
-  padding-top: 15px;
-  padding-bottom: 15px;
-  background: #cfb4d6;
-  box-sizing: border-box;
-  border-color: black;
-}
 
 dl
 {
@@ -72,23 +74,26 @@ dl
   padding-right: 100px;
 } /* styles the description list */
 
-article
+/* article
 {
-  padding-left: 175px;
-  padding-right: 100px;
-}
+  padding-left: 30px;
+  padding-right: 30px;
+} */
 
 mark
 {
   background-color: #cfb4d6;
 }
+a
+{
+  color: rgb(121, 163, 202);
+}
 
 .sidebar 
 {  
   font-family: 'Quicksand', sans-serif;
-
-  height: 100%;
-  width: 100px;
+  height: 50px;
+  width: 100%;
 
   position: absolute;
   /* When position absolute is used on an element, it is positioned absolutely with reference to the closest parent that has a position relative value */
@@ -96,16 +101,17 @@ mark
   left: 0;
   top: 0;
   padding-top: 40px;
-  padding-left: 40px;
+  padding-left: 2%;
   padding-right: 40px;
-  background-color: navy;
+  background-color: #00308F;
 } /* used for the sidebars format and placement */
 
 .sidebar div 
 {
   padding: 8px;
   font-size: 24px;
-  display: block;
+  display: inline;
+  color: rgb(121, 163, 202);
 } /* sidebar's actual appearance */
 
 .center 
@@ -133,4 +139,20 @@ mark
 .form
 {
   padding-left: 215px;
+}
+.tab {
+    display: inline-block;
+    margin-left: 120px;
+}
+.tab2 {
+    display: inline-block;
+    margin-left: 65px;
+}
+.tab3 {
+    display: inline-block;
+    margin-left: 28px;
+}
+.tab4 {
+    display: inline-block;
+    margin-left: 110px;
 }
