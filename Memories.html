@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+    <title>Air Force Junior ROTC | ABOUT US</title>
+
+  
+  </head>
+  <body>
+   
+
+    <div class="sidebar">
+    <div><a href = "index.html">Home</a></div>
+    <div><a href = "AboutUs.html">About Us</a></div>
+    <div><a href = "Memories.html">Pictures</a></div>
+    <div><a href = "Flights.html">Guide</a></div>
+    <div><a href = "MemoryWork.html">Memory Work</a></div>
+    <div><a href = "https://www.instagram.com/vvhsafjrotc/?hl=en">Social Media Page</a></div>
+    </div> 
+    <br>
+
+    <script>
+      var i = 0;
+      var images = [];
+      var time = 3000;
+
+      images[0] = 'Rotc_1.jpg';
+      images[1] = 'Rotc_2.jpg';
+      images[2] = 'Rotc_3.jpg';
+      images[3] = 'Rotc_4.JPG';
+      images[4] = 'Rotc_5.JPG';
+      images[5] = 'Rotc_6.JPG';
+      images[6] = 'Rotc_7.JPG';
+      images[7] = 'Rotc_8.JPG';
+      images[8] = 'Rotc_9.JPG';
+      images[9] = 'Rotc_10.JPG';
+      images[10] = 'Rotc_11.JPG';
+      images[11] = 'Rotc_12.jpg';
+      images[12] = 'Rotc_13.jpg';
+      images[13] = 'Rotc_14.jpg';
+      images[14] = 'Rotc_15.jpg';
+      images[15] = 'Rotc_16.jpg';
+      images[16] = 'Rotc_17.jpg';
+      images[17] = 'Rotc_18.jpg';
+      images[18] = 'Rotc_19.jpg';
+      
+
+      function changeImg () 
+      {
+        document.rotc.src = images[i];
+
+        if (i < images.length - 1)
+        {
+          i++;
+        }
+        else 
+        {
+          i = 0;
+        }
+        setTimeout("changeImg()", time);
+      }
+      window.onload = changeImg;
+
+    </script>
+
+    <img name = "rotc" width="600" height="450"/> 
+
+    <div class = "slider">
+      <div class = "slider__container">
+
+      </div>
+      <div class = "slider__controllers">
+        <button class = "previous">Previous</button>
+        <button class = "next">Next</button>
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -52,18 +52,19 @@ address
   font-size: 15px;
 }
 
-/* table 
+table
 {
-  padding-left: 175px;
-  width: 100%;
-  border-spacing: 0.5rem;
-  font-family: 'Quicksand', sans-serif;
-   
-}*/
-
-th, td 
+  background-color: #navy;
+  width: 80%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid black;
+  margin-left: 12%;
+  margin-right: auto;
+}
+th
 {
-  border-bottom: 1px solid;
+  border: 1px solid black;
 }
 
 
@@ -82,7 +83,7 @@ dl
 
 mark
 {
-  background-color: #cfb4d6;
+  background-color: #549ce8;
 }
 a
 {
@@ -94,8 +95,8 @@ a
   font-family: 'Quicksand', sans-serif;
   height: 50px;
   width: 100%;
-
-  position: absolute;
+overflow-x: hidden;
+  position: fixed;
   /* When position absolute is used on an element, it is positioned absolutely with reference to the closest parent that has a position relative value */
 
   left: 0;
@@ -104,16 +105,22 @@ a
   padding-left: 2%;
   padding-right: 40px;
   background-color: #00308F;
+  transition: 0.5s
 } /* used for the sidebars format and placement */
 
 .sidebar div 
 {
-  padding: 8px;
+  padding: 8px 8px 8px 32px;
   font-size: 24px;
   display: inline;
   color: rgb(121, 163, 202);
 } /* sidebar's actual appearance */
 
+@media screen and (max-height: 450px) 
+{
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
 .center 
 {
   display: block;
@@ -155,4 +162,10 @@ a
 .tab4 {
     display: inline-block;
     margin-left: 110px;
+}
+#example1 {
+  border: 1px solid ;
+  
+  padding: 10px;
+  box-shadow: 5px 10px #072664;
 }
